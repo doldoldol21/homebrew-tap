@@ -6,6 +6,12 @@ Homebrew tap for [Dot Buddy](https://github.com/doldoldol21/dot-buddy), a pixel 
 brew install --cask doldoldol21/tap/dot-buddy
 ```
 
+Prefer no Gatekeeper prompt at all? The project's one-line installer downloads the same signed release with curl, which macOS doesn't quarantine:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/doldoldol21/dot-buddy/main/install.sh | bash
+```
+
 ## First launch
 
 Dot Buddy is ad-hoc signed and not notarized. Homebrew keeps the macOS quarantine flag on, so Gatekeeper blocks the first launch.
