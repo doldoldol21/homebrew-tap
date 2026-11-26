@@ -1,6 +1,6 @@
 cask "dot-buddy" do
-  version "0.3.19"
-  sha256 "95cfe4426b625fcb9ae8d34f3ccd0ef86de5ed52a9af7219772b20574ef25589"
+  version "0.3.20"
+  sha256 "921590fec5fb5ba72dcda1183d9ea3b96e94095b6bbcbb231d9d5498004403a1"
 
   url "https://github.com/doldoldol21/dot-buddy/releases/download/v#{version}/Dot-Buddy-#{version}.zip"
   name "Dot Buddy"
